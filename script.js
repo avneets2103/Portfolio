@@ -17,7 +17,7 @@ v1.addEventListener("mouseenter", function() {
 });
 
 v1.addEventListener("mouseleave", function() {
-  v1.innerHTML = "<img src='/pic-168.jpg' width='300px'>";
+  v1.innerHTML = "<img src='pic-168.jpg' width='300px'>";
   v1.classList.remove("flipSide");
 });
 
@@ -28,7 +28,7 @@ v2.addEventListener("mouseenter", function() {
 });
 
 v2.addEventListener("mouseleave", function() {
-  v2.innerHTML = '<img src="/cooking.jpeg"  height="212px" alt="">'; 
+  v2.innerHTML = '<img src="cooking.jpeg"  height="212px" alt="">'; 
   v2.classList.remove("flipSide");
 });
 
@@ -39,7 +39,7 @@ v3.addEventListener("mouseenter", function() {
 });
 
 v3.addEventListener("mouseleave", function() {
-  v3.innerHTML = '<img src="/drawing.jpeg" width="450px" alt="">' ; 
+  v3.innerHTML = '<img src="drawing.jpeg" width="450px" alt="">' ; 
   v3.classList.remove("flipSide");
 });
 
@@ -51,7 +51,7 @@ v4.addEventListener("mouseenter", function() {
 });
 
 v4.addEventListener("mouseleave", function() {
-  v4.innerHTML = '<video src="/photosReel.mp4" controls width="300px"></video>' ; 
+  v4.innerHTML = '<video src="photosReel.mp4" controls width="300px"></video>' ; 
   v4.classList.remove("flipSide");
 });
 
@@ -63,7 +63,7 @@ v5.addEventListener("mouseenter", function() {
 });
 
 v5.addEventListener("mouseleave", function() {
-  v5.innerHTML = '<img src="/badminton.jpeg" width="450px">'; 
+  v5.innerHTML = '<img src="badminton.jpeg" width="450px">'; 
   v5.classList.remove("flipSide");
 });
 
@@ -75,7 +75,7 @@ v6.addEventListener("mouseenter", function() {
 });
 
 v6.addEventListener("mouseleave", function() {
-  v6.innerHTML = '<img src="/anime.jpeg" width="300px" alt="">' ; 
+  v6.innerHTML = '<img src="anime.jpeg" width="300px" alt="">' ; 
   v6.classList.remove("flipSide");
 });
 

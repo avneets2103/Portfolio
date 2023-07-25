@@ -228,6 +228,16 @@ li:hover{
     gap:1rem;
 }
 
+/* Make skills section fluid */
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+
 .flex2{
     border-radius: 5px;
     padding: 1rem;
@@ -299,3 +309,41 @@ li:hover{
     padding-top:5px;
     background-color: rgba(244, 244, 244, 0.719);
 }
+
+@media (max-width: 860px) {
+    /* Here are the changes */
+    .grid-container{
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+    .topFlex{
+      margin: 0 15%;
+      /* margin: 2% 15%; */
+    }
+    .topFlex2{
+      display: none;
+    }
+    .myName{
+      font-size: 2rem;
+    }
+    .itemsNav{
+      padding: 0 0.5rem;
+    }
+    .stick{
+      position: static;
+    }
+    #aboutMe{
+      margin: 0;
+    }
+    .gridE{
+      width: 100%;
+    }
+    .hobbies{
+      grid-template-columns: none;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  
